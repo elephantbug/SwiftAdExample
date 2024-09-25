@@ -37,6 +37,7 @@
 /* Begin PBXFileReference section */
 		5CECF9BC6FA0A0C0F10F7162 /* Pods-SwiftAdExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAdExample.debug.xcconfig"; path = "Target Support Files/Pods-SwiftAdExample/Pods-SwiftAdExample.debug.xcconfig"; sourceTree = "<group>"; };
 		8391024644E32EDE1B122BB7 /* Pods-SwiftAdExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAdExample.release.xcconfig"; path = "Target Support Files/Pods-SwiftAdExample/Pods-SwiftAdExample.release.xcconfig"; sourceTree = "<group>"; };
+		847FFB812CA4180D00012BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8491DEE52CA3FB2A00B8B7EA /* SwiftAdExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAdExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8491DEE82CA3FB2A00B8B7EA /* SwiftAdExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAdExampleApp.swift; sourceTree = "<group>"; };
 		8491DEEA2CA3FB2A00B8B7EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +102,7 @@
 		8491DEE72CA3FB2A00B8B7EA /* SwiftAdExample */ = {
 			isa = PBXGroup;
 			children = (
+				847FFB812CA4180D00012BE1 /* Info.plist */,
 				8491DEE82CA3FB2A00B8B7EA /* SwiftAdExampleApp.swift */,
 				8491DEEA2CA3FB2A00B8B7EA /* ContentView.swift */,
 				8491DEEC2CA3FB2B00B8B7EA /* Assets.xcassets */,
@@ -512,6 +514,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftAdExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -542,6 +545,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftAdExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
